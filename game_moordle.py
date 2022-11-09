@@ -17,9 +17,9 @@ def main():
 
     while moordle.can_attempt:
 
-        print("What song ? : ", lyrics)
+        print("What song are these lyrics from ? : ", lyrics)
 
-        guess = input("Type your guess: ")
+        guess = input("Type your guess : ")
         guess = guess.upper()
         moordle.attempt(guess)
 
