@@ -4,7 +4,7 @@ from quiz import questions
 class Moordle:
 
     # Maximum attempts for a question
-    MAX_ATTEMPTS = 6
+    MAX_ATTEMPTS = 5
 
     def __init__(self, secret: str):
         self.secret: str = secret.upper()

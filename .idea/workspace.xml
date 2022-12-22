@@ -5,22 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6fc56cf7-d02e-4eb9-9a03-3f8b24c0d9cb" name="Changes" comment="game">
-      <change beforePath="$PROJECT_DIR$/build/game_moordle/Analysis-00.toc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/game_moordle/EXE-00.toc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/game_moordle/PKG-00.toc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/game_moordle/PYZ-00.pyz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/game_moordle/PYZ-00.toc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/game_moordle/Tree-00.toc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/game_moordle/Tree-01.toc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/game_moordle/base_library.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/game_moordle/game_moordle.pkg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/game_moordle/warn-game_moordle.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/game_moordle/xref-game_moordle.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/game_moordle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_moordle.spec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/game_moordle.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/moordle.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/quiz.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_moordle.py" beforeDir="false" afterPath="$PROJECT_DIR$/game_moordle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moordle.py" beforeDir="false" afterPath="$PROJECT_DIR$/moordle.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +43,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/main" />
     </key>
   </component>

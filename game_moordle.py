@@ -12,6 +12,8 @@ title_a = question_set.get(lyrics)
 # Create a moordle entity
 moordle = Moordle(title_a)
 
+
+
 # Get the generated lyrics
 def generate_lyrics_q():
     return lyrics
@@ -20,7 +22,7 @@ def generate_lyrics_q():
 def check_guess():
     feedback = Label(root, font=("ariel", 15, "bold"), bg="black", justify="center")
     feedback.place(x=230, y=350)
-    feedback["fg"] = "green"
+    feedback["fg"] = "#F0A1DB"
     if moordle.can_attempt:
         guess = guess_entry.get()
         guess = guess.upper()
@@ -30,6 +32,10 @@ def check_guess():
         else:
             tkinter.messagebox.showinfo("Réponse", "Ooop.. ")
     else:
+        # Submit button
+        answer_button = Button(root, text="Answer", command=check_guess,
+                               width=5, bg="#F0A1DB", fg="black", font=("ariel", 16, " bold"))
+        answer_button.place(x=350, y=290)
         feedback["text"] = 'The answer is : ' + title_a
 
 # GUI creation with tkinter
@@ -37,7 +43,6 @@ root = Tk()
 root.title("Moordle")
 root.geometry("800x400")
 root.resizable(False,False)
-
 
 # Creating a canvas for question text,
 canvas = Canvas(root, bg="black", width=850, height=530)
@@ -64,7 +69,7 @@ title.place(x=-80, y=0)
 
 # Label for entry
 prompt_label = Label(root, text="Enter your guess :", bg="black", fg="white")
-prompt_label.place(x=150, y=250)
+prompt_label.place(x=160, y=250)
 
 # Add an entry field for the player to enter their guess
 guess_entry = Entry(root, bg="black", fg="white", justify="center", width=40)
@@ -72,14 +77,14 @@ guess_entry.place(x=300, y=250)
 
 # Submit button
 submit_button = Button(root, text="Submit", command=check_guess,
-                       width=5, bg="green", fg="white", font=("ariel", 16, " bold"))
+                       width=5, bg="#F0A1DB", fg="black", font=("ariel", 16, " bold"))
 submit_button.place(x=350, y=290)
 
 # This is the second button which is used to Quit the self.window
 quit_button = Button(root, text="Quit", command=root.destroy,
-                     width=5, bg="red", fg="white", font=("ariel", 16, " bold"))
+                     width=5, bg="red", fg="white", font=("ariel", 11, " bold"))
 # Placing the Quit button on the screen
-quit_button.place(x=696, y=360)
+quit_button.place(x=721, y=368)
 
 # Run the GUI
 root.mainloop()

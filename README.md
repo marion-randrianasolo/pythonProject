@@ -18,6 +18,7 @@ Notice :
 - Pour l'Exécutable dans le dossier 'dist' de ce répertoire, sinon run le fichier python 'game_moordle.py'
 - Lisez la question et entrez une réponse là où indiqué.
 - Cliquez sur Submit.
+- > Les data (paroles + titre) se trouvent dans le fichier quiz.py
 > Vous avez 5 essais pour trouver la bonne réponse, une pop-up vous indiquera si elle est juste ou non.
 > 
 > Au bout de 5 essais, la réponse s'affiche.
